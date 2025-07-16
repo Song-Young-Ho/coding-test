@@ -1,4 +1,4 @@
-public class TakeBox {
+public class 택배상자_옮기기 {
     public int solution(int total, int colSize, int find) {
         int rowSize = getTableRow(total, colSize);
         int[][] table = initializeTable(rowSize, colSize);
